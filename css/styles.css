@@ -1,0 +1,144 @@
+body{
+  font-family: "Franklin Gothic Medium";
+  font-weight: bolder;
+}
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+
+
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  font-weight: bolder;
+}
+h1{
+  font-family: "Montserrat-Black";
+  font-size: 4em;
+  line-height: 1.5;
+  font-weight: bold;
+}
+h2{
+  font-family: "Franklin Gothic Medium";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+/* Navigation-bar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "ubnuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+/* download-buuton */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  text-align: center;
+}
+
+p{
+  color: #8f8f8f;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom:3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+@media (max-width:1028px){
+
+  .title-image{
+  position: static;
+  transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+#cta{
+
+  padding: 7% 15%;
+  font-family:"Franklin Gothic Medium";
+  font-weight: bolder;
+
+  text-align: center;
+
+}
+.cta-heading{
+  font-size: 4rem;
+  line-height:1.5;
+  font-weight: bolder;
+
+}
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon{
+   margin:20px 10px;
+}
